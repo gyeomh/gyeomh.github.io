@@ -11,7 +11,10 @@ I am a junior student studying at **University of Seoul**, majoring **Internatio
 
 Experiences
 ======
-1. SSDC-KATUSA: Team ML/AI Team Leader / Leader
+**2022**
+**SSDC-KATUSA**: May ~ June 
+Leader / Team AI/ML Leader
+
 
 
 Site-wide configuration
