@@ -15,8 +15,7 @@ Experiences
 **SSDC-KATUSA**: 2022 Nov ~ 2023 June    
 Leader / Team AI/ML Leader
 
-**MIIL@Korea University**: 2023 Oct ~ 2024 Sep
-
+**MIIL@Korea University**: 2023 Oct ~ 2024 Sep   
 Research Internship
 
 
