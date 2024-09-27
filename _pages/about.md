@@ -21,11 +21,11 @@ Leader / Team AI/ML Leader
 Research Internship
 
 
-Awards
+Publications
 ======
 
 
 
-Publications
-------
+Awards
+======
 
