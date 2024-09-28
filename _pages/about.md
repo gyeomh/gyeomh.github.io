@@ -9,6 +9,8 @@ redirect_from:
 
 I am a junior student studying at **University of Seoul**, majoring **International Relations** and **Statistics**. My research interests lie in the field of **Robotics**, with a particular focus on, but not limited to, **Embodied AI**.
 
+**CV**
+
 
 Experiences
 ======
