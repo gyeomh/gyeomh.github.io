@@ -31,4 +31,10 @@ Publications
 
 Awards
 ======
-
+- **2022 UOS Big Data Algorithm Competition - Bike Rental Prediction**
+  - 2022 Dec
+  - Private Rank #19(Top 10%)
+ 
+- **2022 Military AI Mini Contest - Production Quality Prediction**
+  - 2022 Dec
+  - 3rd Place
