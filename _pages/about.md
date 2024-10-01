@@ -14,7 +14,7 @@ I am a junior student studying at **University of Seoul**, majoring **Internatio
 
 Experiences
 ======
-- **MIIL@Korea University**:
+- [**MIIL**](http://miil.korea.ac.kr)**@Korea University**:
   - Research Internship
   - 2023 Oct ~ 2024 Sep
 
