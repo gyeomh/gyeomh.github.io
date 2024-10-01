@@ -15,8 +15,8 @@ I am a junior student studying at **University of Seoul**, majoring **Internatio
 Experiences
 ======
 - **SSDC-KATUSA**:
--- Leader / Team AI&ML Leader
--- 2022 Nov ~ 2023 June    
+  - Leader / Team AI&ML Leader
+  - 2022 Nov ~ 2023 June    
 
 **MIIL@Korea University**: 2023 Oct ~ 2024 Sep   
 Research Internship
