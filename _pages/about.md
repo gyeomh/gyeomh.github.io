@@ -19,10 +19,9 @@ Experiences
   - 2023 Oct ~ 2024 Sep
 
 
-- **SSDC-KATUSA**:
+- **SSDC-KATUSA** [Link](https://sites.google.com/view/ssdckatusa) :
   - SSDC-KATUSA Lead / Team AI&ML Lead
-  - 2022 Nov ~ 2023 June
-  - [Link](https://sites.google.com/view/ssdckatusa)   
+  - 2022 Nov ~ 2023 June  
 
 
 Publications
