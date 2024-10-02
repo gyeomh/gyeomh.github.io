@@ -12,6 +12,8 @@ I am a junior student studying at **University of Seoul**, majoring **Internatio
 **CV**
 
 
+
+
 Experiences
 ======
 - [**MIIL**](http://miil.korea.ac.kr)**@Korea University**:
@@ -22,6 +24,7 @@ Experiences
 - [**SSDC-KATUSA**](https://sites.google.com/view/ssdckatusa) :
   - SSDC-KATUSA Lead / Team AI&ML Lead
   - 2022 Nov ~ 2023 June  
+
 
 
 
