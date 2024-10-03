@@ -21,7 +21,7 @@ repository               : "gyeomh/gyeomh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "gyeom_profile.jpg"
   name             : "Gyeom Hwangbo"
   pronouns         : # example: "she/her"  
   bio              : "Hello, I am Gyeom, and I also go by John."
