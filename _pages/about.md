@@ -9,7 +9,9 @@ redirect_from:
 
 I am a junior student studying at **University of Seoul**, majoring **International Relations** and **Statistics**. My research interests lie in the field of **Robotics**, with a particular focus on, but not limited to, **Embodied AI**.
 
-**CV**
+During internship at MIIL@Korea University, I participated in research within the field of Vision-and-Language Navigation(VLN), advised by Professor [Paul Hongsuck Seo](https://phseo.github.io).
+
+[**CV**](https://drive.google.com/file/d/1h13N9T95Yy1kLfyUQEZ5KxIl_snq1gEC/view?usp=share_link)
 
 
 
@@ -30,7 +32,7 @@ Experiences
 
 Publications
 ======
-
+- 1 paper submitted to _2025 North American 2025 Conference of the North American Chapter of the Association for Computational Linguistics(NAACL)_ as a third author
 
 
 
