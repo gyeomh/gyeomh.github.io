@@ -16,6 +16,8 @@ During internship at MIIL@Korea University, I participated in research within th
 
 
 
+
+
 Experiences
 ======
 - [**MIIL**](http://miil.korea.ac.kr)**@Korea University**:
@@ -30,9 +32,13 @@ Experiences
 
 
 
+
+
 Publications
 ======
 - 1 paper submitted to _2025 North American 2025 Conference of the North American Chapter of the Association for Computational Linguistics(NAACL)_ as a third author
+
+
 
 
 
