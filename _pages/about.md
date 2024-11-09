@@ -36,7 +36,8 @@ Experiences
 
 Publications
 ======
-- 1 paper submitted to _2025 Conference of the North American Chapter of the Association for Computational Linguistics(NAACL)_ as a third author
+- **1 paper submitted to _2025 Conference of the North American Chapter of the Association for Computational Linguistics(NAACL)_** as a third author
+  - _Under Review_
 
 
 
