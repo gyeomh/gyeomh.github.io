@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a junior student studying at **University of Seoul**, majoring **International Relations** and **Statistics**. My research interests lie in the field of **Robotics**, with a particular focus on, but not limited to, **Embodied AI**.
+I am a junior student studying at **University of Seoul**, majoring **International Relations** and **Statistics**. My research interests lie in the field of **Multimodal AI**, with a particular focus on, but not limited to, **Embodied AI**.
 
 During internship at MIIL@Korea University, I participated in research within the field of Vision-and-Language Navigation(VLN), advised by Professor [Paul Hongsuck Seo](https://phseo.github.io).
 
