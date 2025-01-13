@@ -11,8 +11,6 @@ I am a junior student studying at **University of Seoul**, majoring **Internatio
 
 During internship at MIIL@Korea University, I participated in research within the field of Vision-and-Language Navigation(VLN), advised by Professor [Paul Hongsuck Seo](https://phseo.github.io).
 
-[**CV**](https://drive.google.com/file/d/1cE9j9mesGUNnWFanikIoiOlf-pgRdrgn/view?usp=share_link)
-
 
 
 
@@ -20,6 +18,10 @@ During internship at MIIL@Korea University, I participated in research within th
 
 Experiences
 ======
+- [**Language&AGI Lab**](https://langlab.yonsei.ac.kr)**@Yonsei University**:
+  - Research Internship
+  - 2025 Jan ~ Present
+
 - [**MIIL**](http://miil.korea.ac.kr)**@Korea University**:
   - Research Internship
   - 2023 Oct ~ 2024 Sep
