@@ -9,7 +9,7 @@ redirect_from:
 
 I am a junior student studying at **University of Seoul**, majoring **International Relations** and **Statistics**. My research interests lie in the field of **Multimodal AI**, with a particular focus on, but not limited to, **Embodied AI**.
 
-During internship at MIIL@Korea University, I participated in research within the field of Vision-and-Language Navigation(VLN), advised by Professor [Paul Hongsuck Seo](https://phseo.github.io).
+I am currently participating in a research internship at Professor [Jinyoung Yeo](https://jinyeo.weebly.com)'s LangAGI Lab@Yonsei University.
 
 
 
@@ -18,7 +18,7 @@ During internship at MIIL@Korea University, I participated in research within th
 
 Experiences
 ======
-- [**Language&AGI Lab**](https://langlab.yonsei.ac.kr)**@Yonsei University**:
+- [**LangAGI Lab**](https://langlab.yonsei.ac.kr)**@Yonsei University**:
   - Research Internship
   - 2025 Jan ~ Present
 
