@@ -92,11 +92,18 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
 
-      # 🧩 Added step to install compatible Sass version
+      # ✅ Downgrade Ruby Sass to a stable pre-3.0 version
+      - name: Downgrade Sass gem
+        run: |
+          gem uninstall sass-embedded -aIx || true
+          gem install sass-embedded -v 1.62.1
+          echo "✅ Installed Ruby Sass-embedded 1.62.1"
+
+      # (Optional) also keep npm Sass pinned for consistency
       - name: Install compatible Sass version
         run: |
           npm install -g sass@1.62.1
-          echo "✅ Installed Dart Sass 1.62.1 (compatible with al-folio)"
+          echo "✅ Installed npm Sass 1.62.1"
 
       - name: Install and Build 🔧
         run: |
