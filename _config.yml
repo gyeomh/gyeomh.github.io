@@ -169,7 +169,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts", "lego-eval"]
+include: ["_pages", "_scripts", "LEGO-eval"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -193,7 +193,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
-  - "lego-eval/_*" # LEGO-Eval 내부에서 _로 시작하는 폴더는 무시
+  - "LEGO-eval/_*" # LEGO-Eval 내부에서 _로 시작하는 폴더는 무시
 
 # Plug-ins
 plugins:
