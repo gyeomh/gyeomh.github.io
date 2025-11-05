@@ -219,27 +219,66 @@
         </div>
         <!--/ Abstract. -->
 
-        <!-- Paper image. -->
+        <!-- LEGO-Eval. -->
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
-            <h2 class="title is-3">Overview</h2>
+            <!-- Main section title -->
+            <h2 class="title is-3">LEGO-Eval</h2>
+
+            <!-- Overview subsection -->
+            <h3 class="title is-4" style="margin-top: 1.5em">Overview</h3>
             <div class="publication-video" style="overflow: visible">
               <img src="./static/images/Overview.png" alt="Overview image" style="display: block; width: 100%; height: auto; max-width: 100%" />
             </div>
-          </div>
-        </div>
-        <!--/ Paper image. -->
+            <div class="content has-text-justified" style="margin-top: 20px">
+              <p>
+                LEGO-Eval begins by taking a fine-grained text instruction and automatically identifying individual constraints that describe layout,
+                materials, objects, and placements. It then plans a sequence of tool executions, selecting from 21 tools that can retrieve visual,
+                textual, and multimodal information from the 3D scene. Next, it selects proper tool arguments—specific rooms, walls, or objects—and
+                executes the tools to gather evidence about each constraint. Finally, LEGO-Eval validates whether each constraint is satisfied and
+                aggregates all binary results into an interpretable overall score showing how well the generated scene aligns with the instruction.
+              </p>
+            </div>
 
-        <!-- Paper PDF. -->
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Paper</h2>
+            <!-- Results subsection -->
+            <h3 class="title is-4" style="margin-top: 2em">Results</h3>
             <div class="publication-video" style="overflow: visible">
-              <iframe src="./static/asset/LEGO-Eval.pdf" style="width: 100%; height: 800px; border: 1px solid #ddd" frameborder="0"></iframe>
+              <img src="./static/images/Results.png" alt="Results image" style="display: block; width: 100%; height: auto; max-width: 100%" />
+            </div>
+            <div class="content has-text-justified" style="margin-top: 20px">
+              <p>
+                All evaluation methods are tested on the LEGO-Bench dataset along with additional scenes that were intentionally created to be
+                misaligned with their instructions, enabling fair comparison between correct and incorrect cases. Performance is measured using F1
+                score, precision, recall, and Cohen’s kappa at both the holistic level for entire instructions and the partial level for individual
+                constraints. The asterisk * denotes methods that cannot evaluate all constraints and are therefore assessed either on a measurable
+                subset ('Measurable') or by treating unevaluable constraints as incorrect ('Full').
+              </p>
             </div>
           </div>
         </div>
-        <!--/ Paper PDF. -->
+
+        <!--/ LEGO-Eval. -->
+
+        <!-- LEGO-Bench. -->
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">LEGO-Bench</h2>
+            <div class="publication-video" style="overflow: visible">
+              <img src="./static/images/dataset.png" alt="Dataset image" style="display: block; width: 100%; height: auto; max-width: 100%" />
+            </div>
+            <div class="content has-text-justified" style="margin-top: 20px">
+              <p>
+                <strong>Dataset Description.</strong> LEGO-Bench is a benchmark designed to evaluate text-guided 3D scene synthesis using
+                fine-grained, realistic instructions. Each instruction contains multiple constraints describing layout, materials, objects, and
+                placements, reflecting the compositional complexity of real-world indoor scenes. The dataset includes 130 instructions paired with
+                manually aligned 3D scenes, totaling 1,250 annotated constraints. On average, each instruction contains about 10 constraints, covering
+                both architectural elements (walls, floors, doors, windows) and object-level relationships. Together, these detailed annotations
+                enable systematic, constraint-level evaluation of how well generated scenes satisfy natural-language specifications.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ LEGO-Bench. -->
       </div>
     </section>
 
