@@ -242,20 +242,34 @@
               </p>
             </div> -->
             <!-- Overview subsection -->
-            <h3 class="title is-4" style="margin-top: 1.5em">Overview</h3>
+            <h3 class="title is-4" style="margin-top: 1.5em;">Overview</h3>
 
-            <div class="publication-video" style="margin-bottom: 14px">
-              <img src="./static/images/Overview.png" alt="Overview image" style="display: block; width: 100%; height: auto; max-width: 100%" />
+            <!-- 이미지 컨테이너 -->
+            <div style="margin-bottom: 14px;">
+              <img
+                src="./static/images/Overview.png"
+                alt="Overview image"
+                style="
+                  display: block;
+                  width: 100%;
+                  height: auto;
+                  max-width: 100%;
+                  margin: 0 auto;
+                "
+              />
             </div>
 
-            <div class="content has-text-justified" style="margin-top: 30px">
+            <!-- 본문 텍스트 -->
+            <div class="content has-text-justified" style="margin-top: 0;">
               <p>
-                <strong>Overview.</strong> LEGO-Eval begins by taking a fine-grained text instruction and automatically identifying individual
-                constraints that describe layout, materials, objects, and placements. It then plans a sequence of tool executions, selecting from 21
-                tools that can retrieve visual, textual, and multimodal information from the 3D scene. Next, it selects proper tool arguments—specific
-                rooms, walls, or objects—and executes the tools to gather evidence about each constraint. Finally, LEGO-Eval validates whether each
-                constraint is satisfied and aggregates all binary results into an interpretable overall score showing how well the generated scene
-                aligns with the instruction.
+                <strong>Overview.</strong>
+                LEGO-Eval begins by taking a fine-grained text instruction and automatically identifying
+                individual constraints that describe layout, materials, objects, and placements.
+                It then plans a sequence of tool executions, selecting from 21 tools that can retrieve visual,
+                textual, and multimodal information from the 3D scene. Next, it selects proper tool arguments — 
+                specific rooms, walls, or objects — and executes the tools to gather evidence about each constraint.
+                Finally, LEGO-Eval validates whether each constraint is satisfied and aggregates all binary results
+                into an interpretable overall score showing how well the generated scene aligns with the instruction.
               </p>
             </div>
 
