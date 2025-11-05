@@ -243,11 +243,16 @@
             </div> -->
             <!-- Overview subsection -->
             <h3 class="title is-4" style="margin-top: 1.5em">Overview</h3>
-            <div class="publication-video" style="margin-bottom: 14px">
-              <img src="./static/images/Overview.png" alt="Overview image" style="display: block; width: 100%; height: auto; max-width: 100%" />
+
+            <div class="publication-video" style="overflow: visible; position: relative; margin-bottom: 20px; display: flex; justify-content: center">
+              <img
+                src="./static/images/Overview.png"
+                alt="Overview image"
+                style="display: block; width: 100%; height: auto; max-width: 100%; position: relative; z-index: 1"
+              />
             </div>
 
-            <div class="content has-text-justified" style="margin-top: 0">
+            <div class="content has-text-justified" style="margin-top: 0; position: relative; z-index: 2">
               <p>
                 <strong>Overview.</strong> LEGO-Eval begins by taking a fine-grained text instruction and automatically identifying individual
                 constraints that describe layout, materials, objects, and placements. It then plans a sequence of tool executions, selecting from 21
