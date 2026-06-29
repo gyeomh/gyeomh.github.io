@@ -441,6 +441,32 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social icons beneath the profile picture
+.profile-social {
+  margin-top: 0.75rem;
+
+  .contact-icons {
+    font-size: 1.7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.85rem;
+
+    a {
+      line-height: 1;
+
+      i::before {
+        vertical-align: middle;
+      }
+
+      &:hover i::before {
+        transform: translateY(-2px);
+        display: inline-block;
+      }
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
