@@ -4,12 +4,11 @@ title: About
 permalink: /
 
 profile:
-  align: center
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>M.S. at POSTECH</p>
-    <p>gyeomhwangbo1[at]gmail.com</p>
 
 news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
