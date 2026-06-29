@@ -215,6 +215,25 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Centered, single-column profile (clean / minimal layout)
+.profile.profile-center {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+
+  img {
+    width: 210px;
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+
+  .more-info {
+    text-align: center;
+    color: var(--global-text-color-light);
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
