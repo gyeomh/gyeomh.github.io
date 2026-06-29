@@ -50,7 +50,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=rOz82MsAAAAJ", "_blank");
         },
       },{
         id: 'social-x',
@@ -64,7 +64,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%67%79%65%6F%6D%68%77%61%6E%67%62%6F@%75%6F%73.%61%63.%6B%72", "_blank");
+          window.open("mailto:%67%79%65%6F%6D%68%77%61%6E%67%62%6F%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
       id: 'light-theme',
