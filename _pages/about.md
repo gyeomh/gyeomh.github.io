@@ -9,7 +9,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>M.S. @ POSTECH</p>
-    <p>gyeomhwangbo1@gmail.com</p>
+    <p>gyeomhwangbo@postech.ac.kr</p>
 
 news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
