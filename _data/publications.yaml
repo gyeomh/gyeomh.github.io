@@ -1,0 +1,21 @@
+papers:
+
+  - title: "Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification"
+    authors: "Minseok Kang<sup>‡</sup>, Dongwook Choi<sup>‡</sup>, <b>Gyeom Hwangbo<sup>‡</sup></b>, Seungwon Lim, Kai Tzu-iunn Ong, Jinyoung Yeo"
+    venue: "EMNLP 2026"
+    paper_pdf: "https://arxiv.org/abs/2511.03001"
+    website: "/LEGO-Eval/"
+    selected: y
+
+  - title: "Web-Shepherd: Advancing PRMs for Reinforcing Web Agents"
+    authors: "Hyungjoo Chae<sup>‡</sup>, Sunghwan Kim<sup>‡</sup>, Junhee Cho<sup>‡</sup>, Seungone Kim, Seungjun Moon, <b>Gyeom Hwangbo</b>, Dongha Lim, Minjin Kim, Yeonjun Hwang, Minju Gwak, Dongwook Choi, Minseok Kang, Gwanhoon Im, ByeongUng Cho, Hyojun Kim, Jun Hee Han, Taeyoon Kwon, Minju Kim, Beong-woo Kwak, Dongjin Kang, Jinyoung Yeo"
+    venue: "NeurIPS 2025 Spotlight"
+    paper_pdf: "https://arxiv.org/abs/2505.15277"
+    selected: y
+
+  - title: "DialNav: Multi-turn Dialog Navigation with a Remote Guide"
+    authors: "Leekyeung Han, Hyunji Min, <b>Gyeom Hwangbo</b>, Jonghyun Choi, Paul Hongsuck Seo"
+    venue: "ICCV 2025"
+    paper_pdf: "https://arxiv.org/abs/2509.12894"
+    website: "https://happilee12.github.io/DialNav/"
+    selected: y

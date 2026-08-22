@@ -1,0 +1,10 @@
+education:
+
+  - place: "POSTECH"
+    time: "2026 - Present"
+    degree: 'M.S. in Artificial Intelligence (Advisor: <a href="https://sites.google.com/view/sangwoomo/about" target="_blank">Sangwoo Mo</a>)'
+
+  - place: "University of Seoul"
+    time: "2020 - 2026"
+    degree: "B.S. in International Relations, B.S. in Statistics"
+    note: "GPA: 4.11/4.5, Magna Cum Laude"

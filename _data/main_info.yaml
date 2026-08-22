@@ -1,0 +1,17 @@
+name: "Gyeom Hwangbo"
+title: "M.S. Student, Graduate School of Artificial Intelligence, POSTECH"
+email: "gyeomhwangbo [AT] postech.ac.kr"
+profile_pic: "/assets/profile-pics/profile.jpg"
+
+# Social links — leave a field empty ("") to hide its icon
+twitter: "https://x.com/GyeomHwangbo"
+github: "https://github.com/gyeomh"
+google_scholar: "https://scholar.google.com/citations?user=rOz82MsAAAAJ"
+linkedin: ""
+bsky: ""
+
+# Optional: path to a CV PDF (e.g. "/assets/cv/cv.pdf"). Leave empty to hide.
+cv: ""
+
+# Optional: Google Analytics tracking ID. Leave empty to disable.
+google_analystics_tracking_id: ""

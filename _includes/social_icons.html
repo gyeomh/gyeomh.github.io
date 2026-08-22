@@ -1,0 +1,30 @@
+{% assign info = site.data.main_info %}
+{% if info.bsky != "" and info.bsky %}
+  <span onclick="window.open('{{ info.bsky }}')" style="cursor: pointer">
+    <i class="fa-brands fa-bluesky {{ include.size }}" aria-hidden="true"></i>
+  </span>
+{% endif %}
+
+{% if info.twitter != "" and info.twitter %}
+  <span onclick="window.open('{{ info.twitter }}')" style="cursor: pointer">
+    <i class="fa-brands fa-x-twitter {{ include.size }}" aria-hidden="true"></i>
+  </span>
+{% endif %}
+
+{% if info.linkedin != "" and info.linkedin %}
+  <span onclick="window.open('{{ info.linkedin }}')" style="cursor: pointer">
+    <i class="fa-brands fa-linkedin {{ include.size }}" aria-hidden="true"></i>
+  </span>
+{% endif %}
+
+{% if info.github != "" and info.github %}
+  <span onclick="window.open('{{ info.github }}')" style="cursor: pointer">
+    <i class="fa-brands fa-github {{ include.size }}" aria-hidden="true"></i>
+  </span>
+{% endif %}
+
+{% if info.google_scholar != "" and info.google_scholar %}
+  <span onclick="window.open('{{ info.google_scholar }}')" style="cursor: pointer">
+    <i class="ai ai-google-scholar{% if include.size %} ai-lg{% endif %}" aria-hidden="true"></i>
+  </span>
+{% endif %}

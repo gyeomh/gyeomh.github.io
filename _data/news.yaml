@@ -1,0 +1,12 @@
+# Newest first. `date` is shown in the accent color, `text` may contain HTML.
+# NOTE: the dates marked "check" below are inferred — please correct them.
+news:
+
+  - date: "Aug 2026" # check
+    text: '<a href="https://arxiv.org/abs/2511.03001">LEGO &amp; LEGO-Eval</a> accepted to <b>EMNLP 2026</b>.'
+
+  - date: "Sep 2025"
+    text: '<a href="https://arxiv.org/abs/2505.15277">Web-Shepherd</a> accepted to <b>NeurIPS 2025</b> (Spotlight).'
+
+  - date: "Jun 2025" # check
+    text: '<a href="https://arxiv.org/abs/2509.12894">DialNav</a> accepted to <b>ICCV 2025</b>.'
