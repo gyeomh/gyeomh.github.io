@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://gyeomh.github.io/sitemap.xml
