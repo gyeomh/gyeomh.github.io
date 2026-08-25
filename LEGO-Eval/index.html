@@ -234,7 +234,7 @@
                 importance of scene-description alignment, existing evaluation methods for such text-guided 3D scene synthesis either capture only
                 coarse similarity between the synthesized scene and the user description, or ignore the spatial reasoning for verifying object
                 placement. None of them addressed the fine-grained constraints (e.g., X needs to be in the scene in a Y manner) implied by the
-                description from users. To address this, we introduce <span class="dnerf">LEGO-Bench</span>, a benchmark dataset that pairs each user
+                description from users. To address this, we introduce <span class="dnerf">LEGO</span>, a benchmark dataset that pairs each user
                 description with human-annotated constraints and a reference scene, and <span class="dnerf">LEGO-Eval</span>, an evaluation framework
                 that decomposes a description into atomic constraints and verifies each one using tools that ground textual references to 3D objects
                 and reason about their spatial relationships. We show that (i) <span class="dnerf">LEGO-Eval</span> evaluates misalignment far more
@@ -306,7 +306,7 @@
             </div>
             <div class="content has-text-justified" style="margin-top: 0">
               <p>
-                <strong>Comparison of evaluation methods.</strong> All evaluation methods are tested on the LEGO-Bench dataset along with additional
+                <strong>Comparison of evaluation methods.</strong> All evaluation methods are tested on the LEGO dataset along with additional
                 scenes that were intentionally created to be misaligned with their instructions, enabling fair comparison between correct and
                 incorrect cases. Performance is measured using F1 score, precision, recall, and Cohen’s kappa at both the holistic level for entire
                 instructions and the partial level for individual constraints. The asterisk * denotes methods that cannot evaluate all constraints and
@@ -318,16 +318,16 @@
 
         <!--/ LEGO-Eval. -->
 
-        <!-- LEGO-Bench. -->
+        <!-- LEGO. -->
         <!-- <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
-            <h2 class="title is-3">LEGO-Bench</h2>
+            <h2 class="title is-3">LEGO</h2>
             <div class="publication-video" style="overflow: visible">
               <img src="./static/images/dataset.png" alt="Dataset image" style="display: block; width: 100%; height: auto; max-width: 100%" />
             </div>
             <div class="content has-text-justified" style="margin-top: 20px">
               <p>
-                <strong>Dataset Description.</strong> LEGO-Bench is a benchmark designed to evaluate text-guided 3D scene synthesis using fine-grained, 
+                <strong>Dataset Description.</strong> LEGO is a benchmark designed to evaluate text-guided 3D scene synthesis using fine-grained, 
                 realistic instructions. Each instruction contains multiple constraints describing layout, materials, objects, and placements, reflecting 
                 the compositional complexity of real-world indoor scenes. The dataset includes 130 instructions paired with manually aligned 3D scenes, 
                 totaling 1,250 annotated constraints. On average, each instruction contains about 10 constraints, covering both architectural elements 
@@ -337,10 +337,10 @@
             </div>
           </div>
         </div> -->
-        <!-- LEGO-Bench. -->
+        <!-- LEGO. -->
         <div class="columns is-centered has-text-centered" style="margin-top: 80px; margin-bottom: 60px">
           <div class="column is-four-fifths">
-            <h2 class="title is-3">LEGO-Bench</h2>
+            <h2 class="title is-3">LEGO</h2>
 
             <!-- <div class="publication-video" style="overflow: hidden; margin-bottom: 10px">
               <img
@@ -359,7 +359,7 @@
 
             <div class="content has-text-justified" style="margin-top: 0px">
               <p>
-                <strong>Dataset Description.</strong> LEGO-Bench is a benchmark designed to evaluate text-guided 3D scene synthesis using
+                <strong>Dataset Description.</strong> LEGO is a benchmark designed to evaluate text-guided 3D scene synthesis using
                 fine-grained, realistic instructions. Each instruction contains multiple constraints describing layout, materials, objects, and
                 placements, reflecting the compositional complexity of real-world indoor scenes. The dataset includes 130 instructions paired with
                 manually aligned 3D scenes, totaling 1,250 annotated constraints. On average, each instruction contains about 10 constraints, covering
@@ -369,8 +369,8 @@
             </div>
           </div>
         </div>
-        <!--/ LEGO-Bench. -->
-        <!--/ LEGO-Bench. -->
+        <!--/ LEGO. -->
+        <!--/ LEGO. -->
       </div>
     </section>
 
