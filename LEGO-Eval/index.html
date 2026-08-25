@@ -5,7 +5,7 @@
     <meta name="description" content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos." />
     <meta name="keywords" content="LEGO-Eval, Eval, LEGO" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>LEGO-Eval: Towards Fine-grained Evaluation on Synthesizing 3D Embodied Environments with Tool Augmentation</title>
+    <title>Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHCLWC07JS"></script>
@@ -44,20 +44,30 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
-                LEGO-Eval: Towards Fine-grained Evaluation on Synthesizing 3D Embodied Environments with Tool Augmentation
+                Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification
               </h1>
+
+              <div style="margin-top: 1rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 1.75rem">
+                <img src="./static/images/emnlp2026.png" alt="EMNLP 2026, Budapest" style="width: 220px; max-width: 40%; height: auto" />
+                <span class="is-size-3 has-text-weight-semibold">EMNLP 2026</span>
+              </div>
+
               <div class="is-size-5 publication-authors">
-                <span class="author-block"> <a href="https://gyeomh.github.io">Gyeom Hwangbo</a><sup>1</sup><sup>*</sup>, </span>
-                <span class="author-block"> <a href="https://hyungjoo-homepage.netlify.app">Hyungjoo Chae</a><sup>2</sup><sup>*</sup>, </span>
-                <span class="author-block">Minseok Kang<sup>1</sup>, </span>
-                <span class="author-block">Hyeonjong Ju<sup>1</sup>, </span>
-                <span class="author-block">Soohyun Oh<sup>1</sup>, </span>
+                <span class="author-block"> <a href="https://k59118.github.io/minseok.github.io/">Minseok Kang</a><sup>1</sup><sup>*</sup>, </span>
+                <span class="author-block"> <a href="https://dongwxxkchoi.github.io">Dongwook Choi</a><sup>1</sup><sup>*</sup>, </span>
+                <span class="author-block"> <a href="https://gyeomh.github.io">Gyeom Hwangbo</a><sup>2</sup><sup>*</sup>, </span>
+                <span class="author-block"> <a href="https://sngwonlim.github.io">Seungwon Lim</a><sup>1</sup>, </span>
+                <span class="author-block"> <a href="https://ktio89.github.io">Kai Tzu-iunn Ong</a><sup>1</sup>, </span>
                 <span class="author-block"> <a href="https://jinyeo.weebly.com">Jinyoung Yeo</a><sup>1</sup></span>
               </div>
 
               <div class="is-size-5 publication-authors">
                 <span class="author-block"><sup>1</sup>Yonsei University,</span>
-                <span class="author-block"><sup>2</sup>Georgia Institute of Technology</span>
+                <span class="author-block"><sup>2</sup>POSTECH</span>
+              </div>
+
+              <div class="is-size-6 publication-authors">
+                <span class="author-block"><sup>*</sup>Equal contribution</span>
               </div>
 
               <div class="column has-text-centered">
@@ -192,27 +202,44 @@
 
     <section class="section">
       <div class="container is-max-desktop">
+        <!-- TL;DR. -->
+        <div class="columns is-centered" style="margin-bottom: 40px">
+          <div class="column is-four-fifths">
+            <div
+              style="
+                background-color: #f5f5f7;
+                border-left: 4px solid #363636;
+                border-radius: 6px;
+                padding: 1.1rem 1.4rem;
+              "
+            >
+              <p class="is-size-6 has-text-justified" style="margin: 0">
+                <span class="has-text-weight-bold">TL;DR&nbsp;&nbsp;</span>
+                We build <span class="dnerf">LEGO</span>, a dataset of 3D scenes aligned with descriptive scene generation instructions, and propose
+                <span class="dnerf">LEGO-Eval</span>, a framework for evaluating the alignment between LLM-generated 3D scene and the given
+                instruction.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ TL;DR. -->
+
         <!-- Abstract. -->
         <div class="columns is-centered has-text-centered" style="margin-bottom: 60px">
           <div class="column is-four-fifths">
             <h2 class="title is-3">Abstract</h2>
             <div class="content has-text-justified">
               <p>
-                Despite recent progress in using Large Language Models (LLMs) for automatically generating 3D scenes, generated scenes often lack
-                realistic spatial layouts and object attributes found in real-world environments. As this problem stems from insufficiently detailed,
-                coarse-grained instructions, advancing 3D scene synthesis guided by more detailed, fine-grained instructions that reflect real-world
-                environments becomes crucial. Without such realistic scenes, training embodied agents in unrealistic environments can lead them to
-                learn priors that diverge significantly from real-world physics and semantics, degrading their performance when deployed. Thus,
-                verifying the alignment between the fine-grained instruction and the generated scene is essential for effective learning. However,
-                current evaluation methods, such as CLIPScore and vision-language models (VLMs), often fail to reliably assess such alignment. This
-                shortcoming arises primarily from their shallow understanding of 3D scenes, which often leads to improperly grounded scene components.
-                To address this, we introduce <span class="dnerf">LEGO-Eval</span>, an evaluation framework equipped with diverse tools designed to
-                explicitly ground scene components, enabling more accurate alignment assessments. We also present
-                <span class="dnerf">LEGO-Bench</span>, a benchmark of detailed instructions that specify complex layouts and attributes of real-world
-                environments. Experiments demonstrate that <span class="dnerf">LEGO-Eval</span> outperforms VLM-as-a-judge by 0.41 F1 score in
-                assessing scene-instruction alignment. Benchmarking with <span class="dnerf">LEGO-Bench</span>
-                reveals significant limitations in current generation methods. Across all evaluated approaches, success rates reached at most 10% in
-                generating scenes that fully align with fine-grained instructions.
+                Accurately synthesizing 3D scenes from user-provided text descriptions is crucial for developing embodied agents. Despite the
+                importance of scene-description alignment, existing evaluation methods for such text-guided 3D scene synthesis either capture only
+                coarse similarity between the synthesized scene and the user description, or ignore the spatial reasoning for verifying object
+                placement. None of them addressed the fine-grained constraints (e.g., X needs to be in the scene in a Y manner) implied by the
+                description from users. To address this, we introduce <span class="dnerf">LEGO-Bench</span>, a benchmark dataset that pairs each user
+                description with human-annotated constraints and a reference scene, and <span class="dnerf">LEGO-Eval</span>, an evaluation framework
+                that decomposes a description into atomic constraints and verifies each one using tools that ground textual references to 3D objects
+                and reason about their spatial relationships. We show that (i) <span class="dnerf">LEGO-Eval</span> evaluates misalignment far more
+                accurately than existing methods and (ii) current scene synthesis approaches achieve only at most 10% success rate in
+                <span class="dnerf">LEGO-Eval</span>.
               </p>
             </div>
           </div>
@@ -350,9 +377,9 @@
     <section class="section" id="BibTeX">
       <div class="container is-max-desktop content">
         <h2 class="title">BibTeX</h2>
-        <pre><code>@article{hwangbo2025lego,
-title   = {LEGO-Eval: Towards Fine-Grained Evaluation on Synthesizing 3D Embodied Environments with Tool Augmentation},
-author  = {Hwangbo, Gyeom  and Chae, Hyungjoo and Kang, Minseok and Ju, Hyeonjong and Oh, Soohyun and Yeo, Jinyoung},
+        <pre><code>@article{kang2025evaluating,
+title   = {Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification},
+author  = {Kang, Minseok and Choi, Dongwook and Hwangbo, Gyeom and Lim, Seungwon and Ong, Kai Tzu-iunn and Yeo, Jinyoung},
 journal = {arXiv preprint arXiv:2511.03001},
 year    = {2025}
 }</code></pre>
