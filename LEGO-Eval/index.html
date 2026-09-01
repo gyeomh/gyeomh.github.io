@@ -5,7 +5,7 @@
     <meta name="description" content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos." />
     <meta name="keywords" content="LEGO-Eval, Eval, LEGO" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification</title>
+    <title>Apples on the Table? Evaluating Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SHCLWC07JS"></script>
@@ -44,7 +44,7 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
-                Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification
+                Apples on the Table? Evaluating Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification
               </h1>
 
               <div style="margin-top: 1rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 1.75rem">
@@ -56,8 +56,8 @@
                 <span class="author-block"> <a href="https://k59118.github.io/minseok.github.io/">Minseok Kang</a><sup>1</sup><sup>*</sup>, </span>
                 <span class="author-block"> <a href="https://dongwxxkchoi.github.io">Dongwook Choi</a><sup>1</sup><sup>*</sup>, </span>
                 <span class="author-block"> <a href="https://gyeomh.github.io">Gyeom Hwangbo</a><sup>2</sup><sup>*</sup>, </span>
-                <span class="author-block"> <a href="https://sngwonlim.github.io">Seungwon Lim</a><sup>1</sup>, </span>
-                <span class="author-block"> <a href="https://ktio89.github.io">Kai Tzu-iunn Ong</a><sup>1</sup>, </span>
+                <span class="author-block"> Seungwon Lim<sup>1</sup>, </span>
+                <span class="author-block"> Kai Tzu-iunn Ong<sup>1</sup>, </span>
                 <span class="author-block"> <a href="https://jinyeo.weebly.com">Jinyoung Yeo</a><sup>1</sup></span>
               </div>
 
@@ -112,7 +112,7 @@
                   </span>
                   <!-- Dataset Link. -->
                   <span class="link-block">
-                    <a href="https://gyeomh.github.io/LEGO-Eval/" class="external-link button is-normal is-rounded is-dark">
+                    <a href="https://huggingface.co/LEGO-Eval" class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="far fa-images"></i>
                       </span>
@@ -204,8 +204,9 @@
       <div class="container is-max-desktop">
         <!-- TL;DR. -->
         <div class="columns is-centered" style="margin-bottom: 40px">
-          <div class="column is-four-fifths">
+          <div class="column is-full">
             <div
+              class="section-text"
               style="
                 background-color: #f5f5f7;
                 border-left: 4px solid #363636;
@@ -226,9 +227,9 @@
 
         <!-- Abstract. -->
         <div class="columns is-centered has-text-centered" style="margin-bottom: 60px">
-          <div class="column is-four-fifths">
+          <div class="column is-full">
             <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
+            <div class="content has-text-justified section-text">
               <p>
                 Accurately synthesizing 3D scenes from user-provided text descriptions is crucial for developing embodied agents. Despite the
                 importance of scene-description alignment, existing evaluation methods for such text-guided 3D scene synthesis either capture only
@@ -246,42 +247,49 @@
         </div>
         <!--/ Abstract. -->
 
-        <!-- LEGO-Eval. -->
+        <!-- LEGO. -->
         <div class="columns is-centered has-text-centered" style="margin-top: 80px; margin-bottom: 60px">
-          <div class="column is-four-fifths">
-            <!-- Main section title -->
-            <h2 class="title is-3">LEGO-Eval</h2>
+          <div class="column is-full">
+            <h2 class="title is-3">LEGO</h2>
 
-            <!-- Overview subsection -->
-            <!-- <h3 class="title is-4" style="margin-top: 1.5em;">Overview</h3>
-            <div class="publication-video" style="overflow: visible">
-              <img src="./static/images/Overview.png" alt="Overview image"
-                  style="display: block; width: 100%; height: auto; max-width: 100%" />
-            </div>
-            <div class="content has-text-justified" style="margin-top: 20px">
-              <p>
-                LEGO-Eval begins by taking a fine-grained text instruction and automatically identifying individual
-                constraints that describe layout, materials, objects, and placements. It then plans a sequence of tool executions,
-                selecting from 21 tools that can retrieve visual, textual, and multimodal information from the 3D scene. Next, it selects
-                proper tool arguments—specific rooms, walls, or objects—and executes the tools to gather evidence about each constraint.
-                Finally, LEGO-Eval validates whether each constraint is satisfied and aggregates all binary results into an interpretable
-                overall score showing how well the generated scene aligns with the instruction.
-              </p>
-            </div> -->
-            <!-- Overview subsection -->
-            <h3 class="title is-4" style="margin-top: 1.5em">Overview</h3>
-
-            <!-- 이미지 컨테이너 -->
-            <div style="margin-bottom: 14px">
+            <div class="figure-panel is-narrow" style="margin-top: 1.5em; margin-bottom: 14px">
               <img
-                src="./static/images/Overview.png"
-                alt="Overview image"
-                style="display: block; width: 100%; height: auto; max-width: 100%; margin: 0 auto"
+                src="./static/images/lego_dataset.png"
+                alt="Overview of the LEGO dataset: constraint types, an annotated description, the constructed scene, and scene metadata"
+                style="display: block; width: 100%; height: auto"
               />
             </div>
 
-            <!-- 본문 텍스트 -->
-            <div class="content has-text-justified" style="margin-top: 0">
+            <div class="content has-text-justified section-text" style="margin-top: 0px">
+              <p>
+                <strong>Dataset Description.</strong> LEGO (Language-guided Environment Generation for embOdied agents) is a fully
+                human-curated benchmark for evaluating text-guided 3D scene synthesis. Each instance pairs a fine-grained natural-language
+                description with human-annotated constraints — categorized into floor layout, material selection, object selection, and
+                object placement — a manually constructed reference scene, and rich scene metadata capturing the positions, rotations,
+                scales, and material properties of every scene component. The dataset spans 130 descriptions and 1,250 constraints in total
+                (9.6 per description on average), together with 295 rooms, 2,320 receptacles, 4,518 objects, and 3,974 structural elements,
+                reflecting the complexity and diversity of real-world indoor environments.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--/ LEGO. -->
+
+        <!-- LEGO-Eval. -->
+        <div class="columns is-centered has-text-centered" style="margin-top: 80px; margin-bottom: 60px">
+          <div class="column is-full">
+            <h2 class="title is-3">LEGO-Eval</h2>
+
+            <!-- Overview subsection -->
+            <h3 class="title is-4" style="margin-top: 1.5em">Overview</h3>
+            <div class="figure-panel" style="margin-bottom: 14px">
+              <img
+                src="./static/images/lego_eval_pipeline.png"
+                alt="LEGO-Eval pipeline: constraint identification, tool execution planning, argument selection and execution, constraint validation, and aggregation"
+                style="display: block; width: 100%; height: auto"
+              />
+            </div>
+            <div class="content has-text-justified section-text" style="margin-top: 0">
               <p>
                 <strong>Overview.</strong>
                 LEGO-Eval begins by taking a fine-grained text instruction and automatically identifying individual constraints that describe layout,
@@ -294,83 +302,25 @@
 
             <!-- Results subsection -->
             <h3 class="title is-4" style="margin-top: 1.5em">Results</h3>
-            <!-- <div class="publication-video" style="overflow: visible">
-              <img src="./static/images/Results.png" alt="Results image" style="display: block; width: 100%; height: auto; max-width: 100%" />
-            </div> -->
-            <div style="margin-bottom: 14px">
+            <div class="figure-panel" style="margin-bottom: 14px">
               <img
                 src="./static/images/Results.png"
                 alt="Results image"
-                style="display: block; width: 100%; height: auto; max-width: 100%; margin: 0 auto"
+                style="display: block; width: 100%; height: auto"
               />
             </div>
-            <div class="content has-text-justified" style="margin-top: 0">
+            <div class="content has-text-justified section-text" style="margin-top: 0">
               <p>
                 <strong>Comparison of evaluation methods.</strong> All evaluation methods are tested on the LEGO dataset along with additional
                 scenes that were intentionally created to be misaligned with their instructions, enabling fair comparison between correct and
                 incorrect cases. Performance is measured using F1 score, precision, recall, and Cohen’s kappa at both the holistic level for entire
-                instructions and the partial level for individual constraints. The asterisk * denotes methods that cannot evaluate all constraints and
-                are therefore assessed either on a measurable subset ('Measurable') or by treating unevaluable constraints as incorrect ('Full').
+                instructions and the partial level for individual constraints. SceneEval cannot assess 41% of the constraints in LEGO due to
+                its fixed evaluation criteria; we evaluate it only on the constraints it can handle for a fair comparison.
               </p>
             </div>
           </div>
         </div>
-
         <!--/ LEGO-Eval. -->
-
-        <!-- LEGO. -->
-        <!-- <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">LEGO</h2>
-            <div class="publication-video" style="overflow: visible">
-              <img src="./static/images/dataset.png" alt="Dataset image" style="display: block; width: 100%; height: auto; max-width: 100%" />
-            </div>
-            <div class="content has-text-justified" style="margin-top: 20px">
-              <p>
-                <strong>Dataset Description.</strong> LEGO is a benchmark designed to evaluate text-guided 3D scene synthesis using fine-grained, 
-                realistic instructions. Each instruction contains multiple constraints describing layout, materials, objects, and placements, reflecting 
-                the compositional complexity of real-world indoor scenes. The dataset includes 130 instructions paired with manually aligned 3D scenes, 
-                totaling 1,250 annotated constraints. On average, each instruction contains about 10 constraints, covering both architectural elements 
-                (walls, floors, doors, windows) and object-level relationships. Together, these detailed annotations enable systematic, constraint-level 
-                evaluation of how well generated scenes satisfy natural-language specifications.
-              </p>
-            </div>
-          </div>
-        </div> -->
-        <!-- LEGO. -->
-        <div class="columns is-centered has-text-centered" style="margin-top: 80px; margin-bottom: 60px">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">LEGO</h2>
-
-            <!-- <div class="publication-video" style="overflow: hidden; margin-bottom: 10px">
-              <img
-                src="./static/images/dataset.png"
-                alt="Dataset image"
-                style="display: block; width: 100%; height: auto; max-width: 100%; margin: 0 auto"
-              />
-            </div> -->
-            <div style="margin-bottom: 14px">
-              <img
-                src="./static/images/dataset.png"
-                alt="Dataset image"
-                style="display: block; width: 100%; height: auto; max-width: 100%; margin: 0 auto"
-              />
-            </div>
-
-            <div class="content has-text-justified" style="margin-top: 0px">
-              <p>
-                <strong>Dataset Description.</strong> LEGO is a benchmark designed to evaluate text-guided 3D scene synthesis using
-                fine-grained, realistic instructions. Each instruction contains multiple constraints describing layout, materials, objects, and
-                placements, reflecting the compositional complexity of real-world indoor scenes. The dataset includes 130 instructions paired with
-                manually aligned 3D scenes, totaling 1,250 annotated constraints. On average, each instruction contains about 10 constraints, covering
-                both architectural elements (walls, floors, doors, windows) and object-level relationships. Together, these detailed annotations
-                enable systematic, constraint-level evaluation of how well generated scenes satisfy natural-language specifications.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--/ LEGO. -->
-        <!--/ LEGO. -->
       </div>
     </section>
 
@@ -378,7 +328,7 @@
       <div class="container is-max-desktop content">
         <h2 class="title">BibTeX</h2>
         <pre><code>@article{kang2025evaluating,
-title   = {Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification},
+title   = {Apples on the Table? Evaluating Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification},
 author  = {Kang, Minseok and Choi, Dongwook and Hwangbo, Gyeom and Lim, Seungwon and Ong, Kai Tzu-iunn and Yeo, Jinyoung},
 journal = {arXiv preprint arXiv:2511.03001},
 year    = {2025}
