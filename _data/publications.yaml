@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Evaluating Scene-Description Alignment in Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification"
+  - title: "Apples on the Table? Evaluating Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification"
     authors: "Minseok Kang<sup>‡</sup>, Dongwook Choi<sup>‡</sup>, <b>Gyeom Hwangbo<sup>‡</sup></b>, Seungwon Lim, Kai Tzu-iunn Ong, Jinyoung Yeo"
     venue: "EMNLP 2026"
     paper_pdf: "https://arxiv.org/abs/2511.03001"
