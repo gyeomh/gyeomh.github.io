@@ -1,5 +1,11 @@
 papers:
 
+  - title: "DIRECT: DIrectional REasoning via grounding images with ChecklisT"
+    authors: "<b>Gyeom Hwangbo<sup>‡</sup></b>, Jaemin Kim<sup>‡</sup>, Yumin Seol<sup>‡</sup>"
+    venue: "CoIN Challenge, EAD Workshop @ ECCV 2026 (2nd Place)"
+    website: "https://e-zorzi.github.io/coin_challenge.github.io/"
+    selected: y
+
   - title: "Apples on the Table? Evaluating Text-Guided 3D Scene Synthesis via Fine-Grained Constraint Verification"
     authors: "Minseok Kang<sup>‡</sup>, Dongwook Choi<sup>‡</sup>, <b>Gyeom Hwangbo<sup>‡</sup></b>, Seungwon Lim, Kai Tzu-iunn Ong, Jinyoung Yeo"
     venue: "EMNLP 2026"

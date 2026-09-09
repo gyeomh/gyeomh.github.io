@@ -2,6 +2,9 @@
 # NOTE: the dates marked "check" below are inferred — please correct them.
 news:
 
+  - date: "Aug 2026"
+    text: 'DIRECT won <b>2nd place</b> in the <a href="https://e-zorzi.github.io/coin_challenge.github.io/">CoIN Challenge</a> at <b>EAD Workshop @ ECCV 2026</b>.'
+
   - date: "Aug 2026" # check
     text: '<a href="https://arxiv.org/abs/2511.03001">LEGO &amp; LEGO-Eval</a> accepted to <b>EMNLP 2026</b>.'
 
